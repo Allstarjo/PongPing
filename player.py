@@ -4,7 +4,7 @@ import pygame
 class Player:
     def __init__(self, win, win_height):
         self.WIDTH, self.HEIGHT = 150, 10
-        self.speed = 5
+        self.speed = 0
         self.WHITE = (255, 255, 255)
         self.position = [400, 500]
         self.WIN = win
