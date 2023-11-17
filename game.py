@@ -21,7 +21,7 @@ class Game:
         self.BLACK = (0, 0, 0)
         self.ai = AI(300, 0, self.WIDTH, 10, self.WIN)
         self.score1 = 0
-        self.score2 = 9
+        self.score2 = 0
         self.game_start = False
         self.main_menu = ["Jouer", "Quitter"]
         self.submenu = ["FACILE", "NORMALE", "DIFFICLE", "QUITTER"]
