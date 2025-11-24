@@ -1,72 +1,72 @@
-# 🏓 PongPing - Jeu de Ping Pong
+# 🏓 PongPing - Classic Pong Game
 
-Jeu de Ping Pong classique développé en Python avec Pygame. Un de mes premiers projets pour apprendre le développement de jeux.
+Classic Pong game developed in Python with Pygame. One of my first projects to learn game development.
 
 ## 📋 Description
 
-Implémentation simple et amusante du jeu classique Pong en mode solo. Le joueur affronte une IA avec difficulté progressive.
+Simple and fun implementation of the classic Pong game in single-player mode. Player faces an AI with progressive difficulty.
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- 🎮 **Mode solo** contre l'ordinateur
-- 🤖 **IA adaptative** qui s'améliore au fil du jeu
-- 🎯 **Système de score** en temps réel
-- 🎨 **Interface graphique simple** et épurée
-- ⚡ **Physique réaliste** de la balle
-- 🔊 **Effets sonores** (optionnel)
+- 🎮 **Single-player mode** against computer AI
+- 🤖 **Adaptive AI** that improves throughout the game
+- 🎯 **Real-time scoring system**
+- 🎨 **Simple and clean** graphical interface
+- ⚡ **Realistic ball physics**
+- 🔊 **Sound effects** (optional)
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
 - **Python 3.x**
-- **Pygame** - Librairie de développement de jeux
-- **Math** - Calculs de trajectoires
+- **Pygame** - Game development library
+- **Math** - Trajectory calculations
 
-## 🎯 Objectifs d'apprentissage
+## 🎯 Learning Objectives
 
-Ce projet m'a permis d'apprendre :
-- Les bases de Pygame et du game development
-- La gestion des événements utilisateur
-- La logique de collision et physique de jeu
-- Les boucles de jeu et le rafraîchissement d'écran
-- La création d'une IA simple
+This project helped me learn:
+- Pygame basics and game development
+- User event handling
+- Collision logic and game physics
+- Game loops and screen refresh
+- Simple AI creation
 
 ## 🚀 Installation
 
-### Prérequis
+### Prerequisites
 ```bash
-Python 3.6 ou supérieur
-pip (gestionnaire de paquets Python)
+Python 3.6 or higher
+pip (Python package manager)
 ```
 
-### Installation des dépendances
+### Install Dependencies
 ```bash
-# Cloner le repository
+# Clone the repository
 git clone https://github.com/Allstarjo/PongPing.git
 cd PongPing
 
-# Installer Pygame
+# Install Pygame
 pip install pygame
 ```
 
-### Lancement du jeu
+### Launch Game
 ```bash
 python pong.py
 ```
 
-## 🎮 Contrôles
+## 🎮 Controls
 
-- **Flèche Haut** ⬆️ - Déplacer la raquette vers le haut
-- **Flèche Bas** ⬇️ - Déplacer la raquette vers le bas
-- **Espace** - Mettre en pause / Reprendre
-- **Échap** - Quitter le jeu
+- **Up Arrow** ⬆️ - Move paddle up
+- **Down Arrow** ⬇️ - Move paddle down
+- **Space** - Pause / Resume
+- **Escape** - Quit game
 
-## 📸 Aperçu
+## 📸 Preview
 
-*(Ajoutez un screenshot du jeu ici)*
+*(Add a game screenshot here)*
 
 ```
 ┌─────────────────────────────────┐
-│  Score: 5    PongPing    IA: 3  │
+│  Score: 5    PongPing    AI: 3  │
 │                                  │
 │  ║                            ║  │
 │  ║                            ║  │
@@ -77,37 +77,37 @@ python pong.py
 └─────────────────────────────────┘
 ```
 
-## 📊 Structure du code
+## 📊 Code Structure
 
 ```python
-# Structure principale
-- Initialisation de Pygame
-- Classe Raquette (Paddle)
-- Classe Balle (Ball)
-- Logique de collision
-- Boucle de jeu principale
-- Gestion des scores
-- IA de l'adversaire
+# Main structure
+- Pygame initialization
+- Paddle class
+- Ball class
+- Collision logic
+- Main game loop
+- Score management
+- Opponent AI
 ```
 
-## 🔮 Améliorations possibles
+## 🔮 Possible Improvements
 
-- [ ] Mode multijoueur local (2 joueurs)
-- [ ] Niveaux de difficulté sélectionnables
-- [ ] Power-ups et bonus
-- [ ] Menu de démarrage
-- [ ] Meilleurs scores (high scores)
-- [ ] Effets visuels améliorés
+- [ ] Local multiplayer mode (2 players)
+- [ ] Selectable difficulty levels
+- [ ] Power-ups and bonuses
+- [ ] Start menu
+- [ ] High scores system
+- [ ] Enhanced visual effects
 
-## 📚 Ce que j'ai appris
+## 📚 What I Learned
 
-- ✅ Bases de Pygame et développement de jeux
-- ✅ Gestion des collisions et physique simple
-- ✅ Programmation orientée objet en Python
-- ✅ Boucle de jeu (game loop)
-- ✅ Logique d'IA basique
+- ✅ Pygame basics and game development
+- ✅ Collision handling and simple physics
+- ✅ Object-oriented programming in Python
+- ✅ Game loop implementation
+- ✅ Basic AI logic
 
-## 👤 Auteur
+## 👤 Author
 
 **Jonathan Amon**
 - GitHub: [@Allstarjo](https://github.com/Allstarjo)
@@ -115,8 +115,8 @@ python pong.py
 
 ## 📝 License
 
-MIT License - Libre d'utilisation pour l'apprentissage
+MIT License - Free to use for learning purposes
 
 ---
 
-🎮 Premier projet de jeu - Octobre 2023
+🎮 First game project - October 2023
